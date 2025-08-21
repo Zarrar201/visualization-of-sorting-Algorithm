@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #bc1a9c;
-  --secondary-color: #9016a0;
+  --primary-color: #00796b;   /* Teal */
+  --secondary-color: #004d40; /* Dark teal */
 }
 * {
   /* Below is the standard CSS code one should add to get rid of default margins and padding which most of tge HTML elements have */
@@ -51,7 +51,7 @@ body {
   padding: 8px 10px;
   border-radius: 6px;
   transition: 0.3s;
-  background-color: #281c2b;
+  background-color: #002b36; /* Navy gray */
 }
 .navbar a:hover {
   background-color: transparent;
@@ -62,7 +62,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 6px 8px;
-  background-color: #281c2b;
+  background-color: #002b36; /* Navy gray */
   color: white;
 }
 .navbar > .icon {
@@ -96,32 +96,32 @@ body {
   flex: 0.5;
   width: 0.000001%;
   margin: 1px;
-  background-color: #d6d6d6;
+  background-color: #cfd8dc; /* Light gray-blue */
   resize: horizontal;
   position: relative;
   transition: all 0.4s ease-in;
 }
 .cell.done {
-  background-color: #9cd861;
-  border-color: #9cd861;
+  background-color: #4caf50; /* Green */
+  border-color: #4caf50;
   color: white;
   transition: all 0.4s ease-out;
 }
 .cell.visited {
-  border-color: #9cd861;
-  background-color: #9cd861;
+  border-color: #4caf50;
+  background-color: #4caf50;
   color: white;
   transition: 0.5s;
 }
 .cell.current {
-  border-color: #91cfc8;
-  background-color: #91cfc8;
+  border-color: #26c6da; /* Cyan */
+  background-color: #26c6da;
   color: white;
   transition: all 0.4s ease-out;
 }
 .cell.min {
-  background-color: #ff1493;
-  border-color: #ff1493;
+  background-color: #ff7043; /* Orange accent */
+  border-color: #ff7043;
   color: white;
   transition: all 0.4s ease-out;
 }
@@ -130,7 +130,7 @@ body {
 footer {
   text-align: center;
   font-size: 18px;
-  color: #2c3e50;
+  color: #263238; /* Dark gray-blue */
   padding: 1.6em;
 }
 .footer > p:nth-child(1) {
@@ -139,7 +139,7 @@ footer {
 .link {
   text-decoration: none;
   font-weight: bold;
-  color: #ff5252;
+  color: #e53935; /* Red accent */
   font-size: 20px;
 }
 
@@ -169,3 +169,5 @@ footer {
     width: 95%;
   }
 }
+
+  
